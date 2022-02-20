@@ -12,8 +12,8 @@ export class MyCircle extends MyAreaPrimitive2D {
   }
 
   area() {
-    const PI = 3.14
-    return PI * Math.pow(this.radius, 2)
+
+    return Math.PI * Math.pow(this.radius, 2)
   }
 }
 
