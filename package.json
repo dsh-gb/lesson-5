@@ -1,0 +1,28 @@
+{
+  "name": "lesson-5",
+  "version": "1.0.0",
+  "description": "lesson-5",
+  "main": "index.js",
+  "scripts": {
+    "build": "rd -r public\\scripts 2>null & tsc",
+    "lint": "eslint src --ext .js --ext .ts",
+    "lint-fix": "eslint src --ext .js --ext .ts --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dsh-gb/lesson-5.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dsh-gb/lesson-5/issues"
+  },
+  "homepage": "https://github.com/dsh-gb/lesson-5#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.9.1",
+    "@typescript-eslint/parser": "^5.9.1",
+    "eslint": "^8.6.0",
+    "typescript": "^4.5.4"
+  }
+}
